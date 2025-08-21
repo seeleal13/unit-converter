@@ -72,20 +72,20 @@ python3 GUI.py
 ```bash
 python --version
 ```
-### 1.open your terminal:
+### 1. open your terminal:
 
 - Windows: Press Win + R, type cmd, and hit Enter.
 - macOS/Linux: Open your terminal app.
 
-### 1.install the package in your machine:
+### 2. install the package in your machine:
 ```bash
 pip install -i https://test.pypi.org/simple/ unit-converter-cli==0.0.0
 ```
-### 3.Verify Installation:
+### 3. Verify Installation:
 ```bash
 pip show unit-converter-cli
 ```
-### 4.Run the CLI:
+### 4. Run the CLI:
 ```bash
 unit-converter-cli
 ```
