@@ -1,5 +1,6 @@
 # Unit Converter
 
+
 A simple Python project for converting between different units. It includes both a **command-line interface (CLI)** and a **graphical user interface (GUI)** built with `tkinter`.
 
 ---
@@ -20,14 +21,15 @@ A simple Python project for converting between different units. It includes both
 ---
 
 ## 📁 Project Structure
-'''bash
+```bash
 unit-converter/
 │
 ├── maincode.py # CLI app
 ├── GUI.py # Tkinter GUI app
 ├── logo.png # App logo
 └── README.md # This file
-'''
+
+```
 
 ---
 
@@ -36,21 +38,22 @@ unit-converter/
 ### 1. Install Requirements
 ```bash
 pip install pillow
-'''
+```
 
 ### 2. Run the CLI
-'''bash
+```bash
 python maincode.py
-'''
+```
 
 ### 3. Run the GUI
-'''bash
+```bash
 python GUI.py
-'''
-
+```
 💡 On some systems, use python3 instead of python.
 
-🖼️ GUI Preview
+---
+
+## 🖼️ GUI Preview
 
 ![hippo](https://media.giphy.com/media/TusDtBsXl2uxExYZLg/giphy.gif)
 
