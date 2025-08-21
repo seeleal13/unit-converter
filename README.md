@@ -34,23 +34,36 @@ unit-converter/
 ---
 
 ## 🚀 How to Run
+### Note: this project needs python in order to function , dowload and install from : https://www.python.org/downloads/
+
+- go to your local terminal after you download the whole unit converter folder from github
+- and by local terminal , I mean either : windows powershell or CMD 
+
 
 ### 1. Install Requirements
+copy & paste this into your terminal in order to install pillow ( very small sized) required for the GUI to work : ( skip if you want just a preview , look below )
 ```bash
 pip install pillow
 ```
 
 ### 2. Run the CLI
+
 ```bash
 python maincode.py
 ```
 
 ### 3. Run the GUI
+you can just preview it in the next part below so you can skip this part if not interested in trying it yourself
+
 ```bash
 python GUI.py
 ```
+
 💡 On some systems, use python3 instead of python.
 
+```bash
+python3 GUI.py
+```
 ---
 
 ## 🖼️ GUI Preview
