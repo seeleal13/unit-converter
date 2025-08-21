@@ -1,0 +1,22 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "unit-converter"
+version = "0.0.1"
+description = "A simple CLI unit converter by @Seeleal13"
+authors = [{ name = "Seeleal13", email = "amine.oubari.07@gmail.com" }]
+license = { file = "LICENSE" }
+readme = "README.md"
+requires-python = ">=3.11"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.scripts]
+unit-convert = "unit_converter_cli:main"  # Entry point to your script's main function
+
+[tool.hatch.build]

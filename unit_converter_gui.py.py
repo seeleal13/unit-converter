@@ -265,8 +265,12 @@ class Unitconverter(tk.Frame):
             self.result_box.insert(0, "Invalid")
             self.result_box.configure(state="readonly")
 
-operating_system = sys.platform
-root = tk.Tk()
-unit_converter_app = Unitconverter(root)
-root.resizable(width=True, height=True)
-root.mainloop()
+def main():
+    operating_system = sys.platform
+    root = tk.Tk()
+    unit_converter_app = Unitconverter(root)
+    root.resizable(width=True, height=True)
+    root.mainloop()
+
+if __name__ == "__main__":
+    main()
