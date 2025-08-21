@@ -50,17 +50,17 @@ pip install pillow
 
 ### 2. Run the CLI
 ```bash
-python maincode.py
+python unit_converter_cli.py
 ```
 
 ### 3. Run the GUI
 ```bash
-python GUI.py
+python unit_converter_gui.py
 ```
 💡 On some systems, use python3 instead of python.
 
 ```bash
-python3 GUI.py
+python3 unit_converter_gui.py
 ```
 
 
