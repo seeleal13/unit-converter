@@ -1,5 +1,5 @@
 # Unit Converter
-
+<img width="3780" height="1890" alt="Image" src="https://github.com/user-attachments/assets/dbd22e47-fabf-4561-a0ff-98a0bc9d657f" />
 
 A simple Python project for converting between different units. It includes both a **command-line interface (CLI)** and a **graphical user interface (GUI)** built with `tkinter`.
 
