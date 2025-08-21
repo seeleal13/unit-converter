@@ -3,20 +3,23 @@
 
 A simple Python project for converting between different units. It includes both a **command-line interface (CLI)** and a **graphical user interface (GUI)** built with `tkinter`.
 
+
 ---
 
 ## Features
-- **CLI**: Run conversions from the terminal (`maincode.py`).
-- **GUI**: User-friendly window app (`GUI.py`) with dropdowns, input/output boxes, live updates, and a history view.
+- **CLI**: Run conversions from the terminal (`unit_converter_cli.py`).
+- **GUI**: User-friendly window app (`unit_converter_gui.py`) with dropdowns, input/output boxes, live updates, and a history view.
 - **Custom Logo**: `logo.png` is used in the window and as the app icon (if available).
+
 
 ---
 
 ## 💻 Software Stack
 
-- Python 3.x  
+- Python 3.11+  
 - Tkinter (built-in with Python)  
 - Pillow (`PIL`) for logo handling  
+
 
 ---
 
@@ -24,16 +27,21 @@ A simple Python project for converting between different units. It includes both
 ```bash
 unit-converter/
 │
-├── maincode.py # CLI app
-├── GUI.py # Tkinter GUI app
+├── unit_converter_cli.py # CLI app
+├── unit_converter_gui.py # Tkinter GUI app
 ├── logo.png # App logo
-└── README.md # This file
+├── README.md # This file
+├── .gitignore #Git config file
+└── pyproject.toml #unit converter metadata
 
 ```
+
 
 ---
 
 ## 🚀 How to Run
+
+### option 1: run on your own code editor:
 
 ### 1. Install Requirements
 ```bash
@@ -51,6 +59,40 @@ python GUI.py
 ```
 💡 On some systems, use python3 instead of python.
 
+```bash
+python3 GUI.py
+```
+
+
+### option 2: run code from built/distributed package:
+
+- Make sure you have Python 3.11 or higher installed.
+- To check if Python is installed, run in your terminal:
+
+```bash
+python --version
+```
+### 1.open your terminal:
+
+- Windows: Press Win + R, type cmd, and hit Enter.
+- macOS/Linux: Open your terminal app.
+
+### 1.install the package in your machine:
+```bash
+pip install -i https://test.pypi.org/simple/ unit-converter-cli==0.0.0
+```
+### 3.Verify Installation:
+```bash
+pip show unit-converter-cli
+```
+### 4.Run the CLI:
+```bash
+unit-converter-cli
+```
+- make sure you are executing in the right path 
+```bash
+cd (package_path)
+```
 ---
 
 ## 🖼️ GUI Preview
